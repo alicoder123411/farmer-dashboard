@@ -1,0 +1,47 @@
+<!-- dashboard.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Farmer Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="dashboard-container">
+        <h2>Farmer Dashboard</h2>
+
+        <div id="userDetails">
+            <h3>Your Details</h3>
+            <ul id="userDetailsList">
+                <!-- User details will be dynamically populated here -->
+            </ul>
+        </div>
+
+        <!-- Progress Section -->
+        <div id="progressSection">
+            <h3>Problem Resolution Progress</h3>
+            <div id="progressBarContainer">
+                <div id="progressBar" class="progress-bar"></div>
+            </div>
+            <p id="progressText">Your issue is in the initial stage. Please wait for resolution.</p>
+        </div>
+
+        <!-- Action Buttons -->
+        <div class="action-buttons">
+            <button id="queryBtn" class="action-btn">Ask New Query</button>
+            <button id="reportBtn" class="action-btn">Report a New Problem</button>
+        </div>
+
+        <button id="logoutBtn" class="logout-btn">Logout</button>
+    </div>
+
+    <script src="dashboard.js"></script>
+</body>
+</html>
+
+
+
+
+
