@@ -1,4 +1,3 @@
-<!-- dashboard.html -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -35,6 +34,19 @@
         </div>
 
         <button id="logoutBtn" class="logout-btn">Logout</button>
+    </div>
+
+    <!-- Chatbot Container -->
+    <div class="chatbot-container">
+        <div id="chatbotMessages" class="chatbot-messages"></div>
+        <div id="chatbotOptions" class="chatbot-options">
+            <button class="chatbot-option" id="yieldingOption">Yielding</button>
+            <button class="chatbot-option" id="manureOption">Manure</button>
+            <button class="chatbot-option" id="seedOption">Seed</button>
+            <button class="chatbot-option" id="otherOption">Other Problem</button>
+        </div>
+        <input type="text" id="chatbotInput" class="chatbot-input" placeholder="Type your message..." />
+        <button id="chatbotSend" class="chatbot-send">Send</button>
     </div>
 
     <script src="dashboard.js"></script>
